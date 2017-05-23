@@ -1,0 +1,138 @@
+body{
+	    box-sizing: border-box;
+	    font-family: Helvetica, arial, sans-serif;
+
+}
+footer {
+	height: 80px;
+	padding-top: 25px;
+}
+
+.navbar {
+	background-color: #f79b1b;
+}
+.navbar-nav {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: 0px;
+}
+.navbar-header{
+	height: 80px;
+}
+.navbar-brand {
+ 	padding-top: 25px;
+}
+
+.navbar-brand  h1 {
+  	color: #961a07;
+  	font-size: 1.5em;
+  	text-transform: uppercase;
+  	font-weight: bold;
+  	text-shadow: 1px 1px 1px #222;
+  	margin-top: 0;
+  	margin-bottom: 0;
+  	line-height: 1;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  	text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  	border: 1px solid #665f55;
+}
+.navbar-header button.navbar-toggle {
+  	clear: both;
+  	margin-top: -30px;
+}
+.navbar-header button.navbar-toggle:hover {
+  	background-color: #f2a63c;
+}
+.navbar-header button.navbar-toggle:focus {
+  	background-color: #f2a63c;
+}
+#collapsable-nav ul li {
+  	background-color: #ef8e07;
+}
+#collapsable-nav ul li:hover {
+  	background-color: #f2a63c;
+}
+#collapsable-nav ul li a {
+	font-size: 1.2em;
+  	color: #961a07;
+  	text-align: center;
+  	transform: translateZ(0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+#collapsable-nav ul li a:hover {
+    transform: scale(1.1);
+}
+
+
+.description-section {
+	height: 380px;
+	background-color: #ffdcad;
+	margin: 5px;
+	border-radius: 4px;
+}
+.title-section {
+	padding-top: 25px;
+  	color: #231a0e;	
+  	text-transform: uppercase;
+  	font-weight: bold; 
+  	text-shadow: 1px 1px 1px #222;	
+}
+.info-section {
+	padding: 15px 25px 25px 25px;
+  	font-size: 1.2em;
+  	text-align: justify;
+  	color: #3f351c;	
+}
+.description-section a{
+	color: #594226;
+  	font-weight: bold;
+  	padding: 10px 25px 10px 10px; 
+  	float: right;	
+}
+#menu-title {
+  	color: #231a0e;	
+  	text-transform: uppercase;
+  	font-weight: bold; 
+  	text-shadow: 1px 1px 1px #222;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+}
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+@media (max-width: 479px) {
+
+}
+
